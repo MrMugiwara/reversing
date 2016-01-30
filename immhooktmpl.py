@@ -23,7 +23,7 @@
 # v0.3                                                                         #
 #                                                                              #
 # AUTHOR                                                                       #
-# soufiane boussali                                                            #
+# Hacker404                                                                    #
 #                                                                              #
 ################################################################################
 
@@ -42,7 +42,7 @@
     Example:
 
     !immhooktmpl -H
-0BADF00D   --==[ immhooktmpl by nrz@nullsecurity.net ]==--
+0BADF00D   --==[ immhooktmpl by https://hacker404.github.io  ]==--
 0BADF00D
 0BADF00D   Usage: !immhooktmpl [options] | <misc>
 0BADF00D
