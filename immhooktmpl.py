@@ -23,7 +23,7 @@
 # v0.3                                                                         #
 #                                                                              #
 # AUTHOR                                                                       #
-# Hacker404                                                                    #
+# MrMugiwara                                                                   #
 #                                                                              #
 ################################################################################
 
@@ -42,7 +42,7 @@
     Example:
 
     !immhooktmpl -H
-0BADF00D   --==[ immhooktmpl by https://hacker404.github.io  ]==--
+0BADF00D   --==[ immhooktmpl by https://MrMugiwara.github.io  ]==--
 0BADF00D
 0BADF00D   Usage: !immhooktmpl [options] | <misc>
 0BADF00D
@@ -63,7 +63,7 @@
         [+] Done.
 
     !immhooktmpl -N
-0BADF00D   --==[ immhooktmpl by nrz@nullsecurity.net ]==--
+0BADF00D   --==[ immhooktmpl by http://MrMugiwara.github.io ]==--
 0BADF00D   [+] hook WS2_32.recvfrom 0x71A32D0F
 0BADF00D     -> Hook.add WS2_32.recvfrom returned 26465696
 0BADF00D     -> Hook added
@@ -118,13 +118,13 @@
 0BADF00D     -> Hook added
 
     !immhooktmpl -f VirtualAlloc
-0BADF00D   --==[ immhooktmpl by nrz@nullsecurity.net ]==--
+0BADF00D   --==[ immhooktmpl by https://MrMugiwara.github.io ]==--
 0BADF00D   [+] hook VirtualAlloc 0x7C809A81
 0BADF00D     -> Hook.add VirtualAlloc returned 53109832
 0BADF00D     -> Hook added
 
     !immhooktmpl -D
-0BADF00D   --==[ immhooktmpl by nrz@nullsecurity.net ]==--
+0BADF00D   --==[ immhooktmpl by https://MrMugiwara.github.io ]==--
 0BADF00D   [!] WARNING: Removed hook WS2_32.recvfrom
 0BADF00D   [!] WARNING: Removed hook WS2_32.sendto
 0BADF00D   [!] WARNING: Removed hook WS2_32.socket
@@ -226,7 +226,7 @@ class Help:
     @staticmethod
     def banner():
         """ print banner """
-        imm.log("--==[ immhooktmpl by nrz@nullsecurity.net ]==--" \
+        imm.log("--==[ immhooktmpl by https://MrMugiwara.github.io ]==--" \
                 , focus=1, highlight=1)
         return SUCCESS
 
